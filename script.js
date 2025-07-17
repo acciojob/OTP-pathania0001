@@ -10,10 +10,10 @@ inputs.forEach((input,index)=>{
 	})
 
 	input.addEventListener("keydown",(e)=>{
-    if(e.key === "Backspace")
+    if(e.key === "Backspace"  && index > 0)
 	{
 		input.value="";
-		index>=1 ? inputs[index-1].focus():input.blur();
+		inputs[index-1].focus();
 	}	
 	})
 })

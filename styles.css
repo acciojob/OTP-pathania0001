@@ -1,20 +1,22 @@
-/*  your css code here. If applicable */
-.container{
-   text-align:center;
-	border:1px solid
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  margin: 0 auto;
 }
-
 
 .code-container {
-	display:flex;
-	justify-content:space-around;
-	width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
-input{
-	font-size:4rem;
-	font-weight:100;
-	 width:4rem;
-	height:5rem; 
-	border-color:black/5;
+.code {
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
